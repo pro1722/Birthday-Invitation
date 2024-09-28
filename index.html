@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="birthday-card">
+        
+        <div class="card-outer"> 
+            <img src="./candle.png" alt="Birthday Cake Preview" />
+      
+           
+        </div>
+
+        
+        <div class="card-inner"> 
+            <div class="text">
+                <p class="title" id="dynamic-text">🎉 Let's Party! 🎉</p>
+                <p>It's My Birthday!!!</p>
+                <p>On the 17th of January</p>
+
+                
+                <div class="location-container">
+                    <p class="location">Location: </p>
+                    <p>
+                        <a class="map-link" href="https://www.google.com/maps/" target="_blank" rel="noopener noreferrer" aria-label="View Your Venue Name on Google Maps">View on Google Maps</a>
+                    </p>
+                </div> 
+
+             
+                <div class="countdown-container">
+                    <p id="countdown">112d 10h 43m 47s</p> 
+                </div> 
+
+                
+                <div class="rsvp-container">
+                    <p>
+                        <button class="rsvp-btn" onclick="collectRSVP()">RSVP</button>
+                        
+                    </p>
+                    
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+    <script src="JS/countdown.js"></script>
+    <script src="JS/rsvps.js"></script>
+    <script src="JS/animation.js"></script>
+    <script src="JS/tittle.js"></script>
+  
+</body>
+</html>
